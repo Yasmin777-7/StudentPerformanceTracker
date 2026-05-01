@@ -30,6 +30,8 @@ public class Main {
 
         double avg = (double) (mark1 + mark2 + mark3)/3;
 
+        System.out.println("avg:"+avg);
+
         if(avg >= 50){
             System.out.println("PASS");
         }else{
